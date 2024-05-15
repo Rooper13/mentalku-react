@@ -1,0 +1,269 @@
+.galeri1 {
+  width: 64px;
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+}
+.kesehatan-mental-di {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+}
+.flexibility-container,
+.gallery-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flexibility-container {
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+.gallery-header {
+  width: 819px;
+  flex-direction: row;
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.mask-group-icon7,
+.mask-group-icon8 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.mask-group-icon7 {
+  flex: 1;
+  max-height: 100%;
+}
+.mask-group-icon8 {
+  height: 469.3px;
+  flex-shrink: 0;
+}
+.mask-group-parent {
+  height: 1112px;
+  width: 360.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55.6px;
+  min-width: 360.7999999999999px;
+  max-width: 100%;
+}
+.gallery-photo-icon,
+.mask-group-icon9 {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  min-height: 347px;
+}
+.gallery-photo-icon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 362px;
+}
+.mask-group-icon9 {
+  width: 302.2px;
+  object-fit: contain;
+}
+.image-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 38.8px;
+  max-width: 100%;
+}
+.mask-group-icon10 {
+  width: 360.8px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 707px;
+  max-width: 100%;
+}
+.mask-group-icon11 {
+  align-self: stretch;
+  height: 346.9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  debug_commit: 1de1738;
+}
+.mask-group-icon12 {
+  width: 218.3px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 307px;
+}
+.mask-group-icon12,
+.mask-group-icon13,
+.mask-group-parent1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.mask-group-icon13 {
+  width: 237.8px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 307px;
+}
+.mask-group-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40.8px;
+}
+.image-grid,
+.mask-group-container,
+.mask-group-group {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.mask-group-container {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 55.7px;
+  min-width: 323px;
+}
+.image-grid,
+.mask-group-group {
+  align-items: flex-end;
+}
+.mask-group-group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 40.7px;
+}
+.image-grid {
+  flex: 1;
+  flex-direction: column;
+  gap: 55.5px;
+  min-width: 584px;
+}
+.partner {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 40.8px;
+}
+.gallery,
+.gallery-header-parent,
+.partner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.gallery-header-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 35px;
+}
+.gallery {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 34px 102px 35px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1200px) {
+  .mask-group-parent {
+    flex: 1;
+  }
+  .partner {
+    flex-wrap: wrap;
+  }
+  .gallery {
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .kesehatan-mental-di {
+    font-size: 38px;
+  }
+  .mask-group-icon9 {
+    flex: 1;
+  }
+  .image-row {
+    flex-wrap: wrap;
+  }
+  .mask-group-icon10 {
+    flex: 1;
+  }
+  .mask-group-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gallery-photo-icon,
+  .mask-group-parent {
+    min-width: 100%;
+  }
+  .mask-group-icon12,
+  .mask-group-icon13 {
+    flex: 1;
+  }
+  .mask-group-parent1 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .mask-group-container {
+    gap: 28px;
+  }
+  .image-grid {
+    min-width: 100%;
+  }
+  .partner {
+    gap: 20px;
+  }
+  .gallery-header-parent {
+    gap: 17px;
+  }
+  .gallery {
+    padding-bottom: 43px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .galeri1 {
+    font-size: 18px;
+  }
+  .kesehatan-mental-di {
+    font-size: 29px;
+  }
+  .mask-group-parent {
+    gap: 28px;
+  }
+  .image-row {
+    gap: 19px;
+  }
+  .mask-group-group {
+    gap: 20px;
+  }
+  .image-grid {
+    gap: 28px;
+  }
+}

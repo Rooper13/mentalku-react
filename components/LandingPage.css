@@ -1,0 +1,96 @@
+.pexels-shvets-production-71760-icon1 {
+  position: absolute;
+  top: 0;
+  left: 189.4px;
+  width: 1387.4px;
+  height: 640px;
+  object-fit: cover;
+}
+.shape1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 189.4px;
+  background: linear-gradient(
+    180deg,
+    rgba(134, 130, 130, 0.3),
+    rgba(158, 221, 255, 0.3)
+  );
+  width: 1403.6px;
+}
+.mind1 {
+  margin: 0;
+}
+.keeper1 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.mind-keeper1 {
+  margin: 0;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: 120px;
+  font-weight: 400;
+  font-family: "Monotype Corsiva";
+  display: inline-block;
+  width: 755.1px;
+  text-shadow: 1px 0 0 rgba(110, 193, 228, 0.3),
+    0 1px 0 rgba(110, 193, 228, 0.3), -1px 0 0 rgba(110, 193, 228, 0.3),
+    0-1px 0 rgba(110, 193, 228, 0.3);
+}
+.kesehatan-bukan-hanya1,
+.konsultasi-sekarang-juga1 {
+  margin: 0;
+}
+.kesehatan-bukan-hanya-container1 {
+  position: absolute;
+  top: 320px;
+  left: 212.7px;
+  display: inline-block;
+  width: 528.6px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px rgba(110, 193, 228, 0.2);
+}
+.landing-spacer {
+  position: absolute;
+  top: 494px;
+  left: 388.9px;
+  border-radius: 20px;
+  background-color: #6ec1e4;
+  width: 186.3px;
+  height: 63px;
+}
+.konsultasi1 {
+  position: absolute;
+  top: 507px;
+  left: 417.2px;
+  display: inline-block;
+  width: 133px;
+}
+.landing-page {
+  position: absolute;
+  top: 93px;
+  left: -199px;
+  width: 1593px;
+  height: 665px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-family: Poppins;
+}
+@media screen and (max-width: 950px) {
+  .mind-keeper1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mind-keeper1 {
+    font-size: 30px;
+  }
+  .kesehatan-bukan-hanya-container1,
+  .konsultasi1 {
+    font-size: 20px;
+  }
+}

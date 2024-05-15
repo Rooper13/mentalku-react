@@ -1,0 +1,52 @@
+.beranda1,
+.direktori {
+  position: absolute;
+  top: 26px;
+  left: 400px;
+  display: inline-block;
+  min-width: 78px;
+}
+.direktori {
+  left: 515px;
+  min-width: 79px;
+}
+.informasi,
+.konsultasi-online1 {
+  position: absolute;
+  top: 26px;
+  left: 637px;
+}
+.informasi {
+  left: 822px;
+  display: inline-block;
+  min-width: 86px;
+}
+.image-9-icon3 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 184px;
+  object-fit: cover;
+}
+.navbar {
+  position: absolute;
+  top: 7px;
+  left: 21px;
+  width: 908px;
+  height: 80px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 450px) {
+  .beranda1,
+  .direktori,
+  .informasi,
+  .konsultasi-online1 {
+    font-size: 16px;
+  }
+}

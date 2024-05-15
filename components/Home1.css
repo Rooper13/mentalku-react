@@ -1,0 +1,615 @@
+.mental-health-icons,
+.shape {
+  position: absolute;
+  top: 93px;
+  left: 0;
+  background-color: #e2bfb3;
+  width: 1369px;
+  height: 640px;
+}
+.mental-health-icons {
+  top: 0;
+  background-color: #fff;
+  height: 93px;
+}
+.healthiconsv {
+  position: absolute;
+  top: 44px;
+  left: 620px;
+  width: 13px;
+  height: 7px;
+  overflow: hidden;
+}
+.gangguan-tidur {
+  left: 133px;
+}
+.bipolar,
+.gangguan-tidur,
+.kecemasan-umum {
+  margin: 0;
+  position: absolute;
+  top: 2167px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.bipolar {
+  left: 630px;
+  display: inline-block;
+  min-width: 109px;
+}
+.kecemasan-umum {
+  left: 978px;
+}
+.navigation-spacer {
+  position: absolute;
+  top: 26px;
+  left: 1250px;
+  border-radius: 10px;
+  background-color: #6ec1e4;
+  width: 100px;
+  height: 40px;
+}
+.keluar {
+  position: absolute;
+  top: 32px;
+  left: 1268px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: Inter;
+  color: #fff;
+  min-width: 63px;
+}
+.healthiconsv1 {
+  position: absolute;
+  top: 44px;
+  left: 934px;
+  width: 13px;
+  height: 7px;
+  overflow: hidden;
+}
+.mental-health-icons1 {
+  border: 1px solid #000;
+  background-color: transparent;
+  height: 383px;
+  width: 394px;
+  outline: 0;
+  position: absolute;
+  top: 1111px;
+  left: 919px;
+  border-radius: 0 30px 30px 0;
+  box-sizing: border-box;
+}
+.pendulum-icon {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fitur-lengkap {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tidak-hanya-konsultasi {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+  color: #000;
+}
+.features,
+.mental-health-icons2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.features {
+  align-self: stretch;
+  gap: 20px;
+}
+.mental-health-icons2 {
+  position: absolute;
+  top: 1143px;
+  left: 933px;
+  gap: 50px;
+  text-align: center;
+  font-size: 28px;
+  color: #1a1a1a;
+  font-family: Manrope;
+}
+.mental-health-icons3,
+.navigation-spacer1 {
+  position: absolute;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.mental-health-icons3 {
+  background-color: transparent;
+  height: 383px;
+  width: 395px;
+  outline: 0;
+  top: 1111px;
+  left: 55px;
+  border-radius: 30px 0 0 30px;
+}
+.navigation-spacer1 {
+  top: 1044px;
+  left: 449px;
+  box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #6ec1e4;
+  width: 471px;
+  height: 517px;
+}
+.group-icon {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.free {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pasien-dapat-melakukan {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.free-parent,
+.free-session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.free-parent {
+  align-self: stretch;
+  gap: 20px;
+}
+.free-session {
+  position: absolute;
+  top: 1079px;
+  left: 474px;
+  gap: 50px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  font-family: Manrope;
+}
+.mengapa {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mengapa-konsultasi-kesehatan {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.kami-membantu-orang1,
+.why-us {
+  position: absolute;
+  font-family: Manrope;
+  color: #000;
+}
+.why-us {
+  top: 810px;
+  left: 117px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 22px;
+}
+.kami-membantu-orang1 {
+  top: 1663px;
+  left: 56px;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  display: inline-block;
+  width: 1256px;
+}
+.mental-health-icons4 {
+  position: absolute;
+  top: 6006px;
+  left: 0;
+  background-color: #6ec1e4;
+  width: 1369px;
+  height: 491px;
+}
+.psychologist-icon {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fleksibel {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pasien-dapat-melakukan1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 15px;
+  font-family: Poppins;
+  color: #000;
+}
+.fleksibel-parent,
+.mental-health-icons5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fleksibel-parent {
+  align-self: stretch;
+  gap: 15px;
+}
+.mental-health-icons5 {
+  position: absolute;
+  top: 1127px;
+  left: 70px;
+  gap: 30px;
+  text-align: center;
+  font-size: 28px;
+  color: #1a1a1a;
+  font-family: Manrope;
+}
+.home-2-child,
+.placeholder-icon,
+.placeholder-icon1 {
+  position: absolute;
+  top: 1869px;
+  left: 56px;
+  border-radius: 5px 50px 5px 50px;
+  width: 393px;
+  height: 280px;
+  object-fit: cover;
+}
+.home-2-child,
+.placeholder-icon1 {
+  top: 1864px;
+  left: 488px;
+}
+.home-2-child {
+  top: 1869px;
+  left: 920px;
+}
+.quote-spacer {
+  position: absolute;
+  top: 2357px;
+  left: 65px;
+  box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  background-color: #fff;
+  width: 515px;
+  height: 889px;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px 50px 5px 50px;
+  background-color: #e3f5f9;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.perawatan-diri-bukanlah1 {
+  margin: 0;
+  position: absolute;
+  top: 127px;
+  left: 59px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 1192px;
+}
+.icon2,
+.icon3 {
+  position: absolute;
+  top: 32px;
+  left: 31px;
+  width: 80px;
+  height: 81px;
+}
+.icon3 {
+  top: 349px;
+  left: 1185px;
+  object-fit: contain;
+}
+.rectangle-group {
+  position: absolute;
+  top: 4071px;
+  left: 37px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset, 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 50px 5px 50px;
+  background-color: #e3f5f9;
+  width: 1294px;
+  height: 473px;
+  text-align: center;
+  font-size: 54px;
+  color: #000;
+  font-family: Manrope;
+}
+.mental-health-icons6 {
+  position: absolute;
+  top: 3246px;
+  left: 0;
+  background-color: #6ec1e4;
+  width: 1369px;
+  height: 743px;
+}
+.divider-icon {
+  position: absolute;
+  top: 3480px;
+  left: -174px;
+  width: 1119px;
+  height: 509px;
+}
+.knowledge-spacer {
+  position: absolute;
+  top: 3306px;
+  left: 93px;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 1183px;
+  height: 639px;
+}
+.koleksi-pengetahuan {
+  margin: 0;
+  position: absolute;
+  top: 3382px;
+  left: 746px;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+}
+.kesehatan-mental,
+.pelajari-dan-pahami {
+  margin: 0;
+  position: absolute;
+  top: 3488px;
+  left: 699px;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: Inter;
+  display: inline-block;
+  width: 342px;
+}
+.kesehatan-mental {
+  top: 3541px;
+}
+.jelajahi-koleksi-pengetahuan,
+.kunjungi-koleksi-pengetahuan {
+  position: absolute;
+  top: 3614px;
+  left: 699px;
+  font-size: 24px;
+  font-family: Poppins;
+  display: inline-block;
+  width: 519px;
+}
+.kunjungi-koleksi-pengetahuan {
+  top: 3756px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 345px;
+}
+.galeri {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+}
+.kesehatan-mental-diseluruh {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: left;
+}
+.galeri-parent {
+  position: absolute;
+  top: 4641px;
+  left: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-family: Manrope;
+}
+.image-9-icon,
+.mask-group-icon {
+  position: absolute;
+  top: 2664px;
+  left: 72px;
+  width: 500px;
+  height: 217.4px;
+  object-fit: cover;
+}
+.mask-group-icon {
+  top: 4792px;
+  left: 1032.8px;
+  width: 302.2px;
+  height: 346.9px;
+  object-fit: contain;
+}
+.mask-group-icon1,
+.mask-group-icon2,
+.mask-group-icon3 {
+  position: absolute;
+  top: 5434.7px;
+  left: 35px;
+  width: 360.8px;
+  height: 469.3px;
+  object-fit: contain;
+}
+.mask-group-icon2,
+.mask-group-icon3 {
+  top: 5196.8px;
+  left: 436.6px;
+  height: 707.2px;
+}
+.mask-group-icon3 {
+  top: 5194.5px;
+  left: 838.1px;
+  width: 496.9px;
+  height: 346.9px;
+}
+.mask-group-icon4,
+.mask-group-icon5,
+.mask-group-icon6 {
+  position: absolute;
+  top: 5597.1px;
+  left: 838.1px;
+  width: 218.3px;
+  height: 306.9px;
+  object-fit: contain;
+}
+.mask-group-icon5,
+.mask-group-icon6 {
+  top: 4792px;
+  left: 35px;
+  width: 360.8px;
+  height: 587.1px;
+}
+.mask-group-icon6 {
+  top: 5597.1px;
+  left: 1097.2px;
+  width: 237.8px;
+  height: 306.9px;
+}
+.gallery-image-icon {
+  position: absolute;
+  top: 4792px;
+  left: 437px;
+  width: 557px;
+  height: 347px;
+  object-fit: cover;
+}
+.home-2 {
+  width: 100%;
+  height: 6497px;
+  position: relative;
+  background-color: #eef7ff;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: "Inria Serif";
+}
+@media screen and (max-width: 975px) {
+  .home-2 {
+    height: auto;
+    min-height: 6497;
+  }
+}
+@media screen and (max-width: 950px) {
+  .bipolar,
+  .gangguan-tidur,
+  .kecemasan-umum {
+    font-size: 26px;
+  }
+  .free {
+    font-size: 28px;
+  }
+  .kami-membantu-orang1,
+  .mengapa-konsultasi-kesehatan {
+    font-size: 38px;
+  }
+  .perawatan-diri-bukanlah1 {
+    font-size: 43px;
+  }
+  .kesehatan-mental,
+  .koleksi-pengetahuan,
+  .pelajari-dan-pahami {
+    font-size: 29px;
+  }
+  .kesehatan-mental-diseluruh {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bipolar,
+  .gangguan-tidur,
+  .kecemasan-umum {
+    font-size: 19px;
+  }
+  .keluar {
+    font-size: 16px;
+  }
+  .fitur-lengkap {
+    font-size: 22px;
+  }
+  .free {
+    font-size: 21px;
+  }
+  .mengapa {
+    font-size: 18px;
+  }
+  .kami-membantu-orang1,
+  .mengapa-konsultasi-kesehatan {
+    font-size: 29px;
+  }
+  .fleksibel {
+    font-size: 22px;
+  }
+  .perawatan-diri-bukanlah1 {
+    font-size: 32px;
+  }
+  .kesehatan-mental,
+  .koleksi-pengetahuan,
+  .pelajari-dan-pahami {
+    font-size: 22px;
+  }
+  .jelajahi-koleksi-pengetahuan {
+    font-size: 19px;
+  }
+  .kunjungi-koleksi-pengetahuan {
+    font-size: 16px;
+  }
+  .galeri {
+    font-size: 18px;
+  }
+  .kesehatan-mental-diseluruh {
+    font-size: 29px;
+  }
+}

@@ -1,0 +1,41 @@
+.disorder-examples,
+.frame-container {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-container {
+  flex: 1;
+  display: grid;
+  gap: 39px;
+  grid-template-columns: repeat(3, minmax(295px, 1fr));
+}
+.disorder-examples {
+  align-self: stretch;
+  display: flex;
+  padding: 0 56px 151px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: "Inria Serif";
+}
+@media screen and (max-width: 1050px) {
+  .frame-container {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(295px, 511px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-container {
+    gap: 19px;
+    grid-template-columns: minmax(295px, 1fr);
+  }
+  .disorder-examples {
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 98px;
+    box-sizing: border-box;
+  }
+}

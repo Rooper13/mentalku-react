@@ -1,0 +1,53 @@
+.icon-placeholder {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 5px 50px 5px 50px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.gangguan-tidur1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.disorder-item,
+.icon-placeholder-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.disorder-item {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 78px 0 77px;
+}
+.icon-placeholder-parent {
+  height: 336px;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: "Inria Serif";
+}
+@media screen and (max-width: 1050px) {
+  .gangguan-tidur1 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gangguan-tidur1 {
+    font-size: 19px;
+  }
+  .disorder-item {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

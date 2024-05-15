@@ -1,0 +1,131 @@
+.background-shape,
+.hero-image-overlay {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+}
+.hero-image-overlay {
+  height: 640px;
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: #e2bfb3;
+}
+.background-shape {
+  height: calc(100% - 52px);
+  width: 1398.3px;
+  right: -16px;
+  bottom: 52px;
+  background: linear-gradient(
+    180deg,
+    rgba(134, 130, 130, 0.3),
+    rgba(158, 221, 255, 0.3)
+  );
+  z-index: 2;
+}
+.pexels-shvets-production-71760-icon {
+  height: 640px;
+  width: 1382.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -320px;
+  right: -832.4px;
+  object-fit: cover;
+  z-index: 1;
+}
+.kesehatan-bukan-hanya,
+.konsultasi-sekarang-juga {
+  margin: 0;
+}
+.kesehatan-bukan-hanya-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px rgba(110, 193, 228, 0.2);
+  max-width: 100%;
+  z-index: 4;
+}
+.pexels-shvets-production-71760-parent {
+  width: 526.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.consultation-button-child {
+  height: 63px;
+  width: 185.6px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #6ec1e4;
+  display: none;
+}
+.konsultasi {
+  flex: 1;
+  position: relative;
+  font-size: 25px;
+  font-family: Poppins;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  min-width: 129.1px;
+  z-index: 4;
+}
+.consultation-button,
+.consultation-button-wrapper,
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.consultation-button {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 28.2px 12px 28.3px;
+  background-color: #6ec1e4;
+  align-self: stretch;
+  border-radius: 20px;
+  flex-direction: row;
+  z-index: 3;
+}
+.consultation-button:hover {
+  background-color: #3b8fb0;
+}
+.consultation-button-wrapper,
+.hero {
+  box-sizing: border-box;
+}
+.consultation-button-wrapper {
+  width: 185.6px;
+  flex-direction: column;
+  padding: 174px 0 0;
+  margin-left: -351.1px;
+}
+.hero {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 320px 9.9px 108px;
+  position: relative;
+  min-height: 717px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-family: Poppins;
+}
+@media screen and (max-width: 750px) {
+  .hero {
+    padding-top: 208px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .kesehatan-bukan-hanya-container,
+  .konsultasi {
+    font-size: 20px;
+  }
+}

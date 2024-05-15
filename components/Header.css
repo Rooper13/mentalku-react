@@ -1,0 +1,136 @@
+.header-child {
+  height: 93px;
+  width: 1369px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.beranda,
+.image-9-icon1 {
+  position: relative;
+  z-index: 1;
+}
+.image-9-icon1 {
+  height: 80px;
+  width: 184px;
+  object-fit: cover;
+}
+.beranda {
+  display: inline-block;
+  min-width: 77px;
+}
+.beranda-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 0;
+}
+.navigation-links-formselect {
+  font-family: Manrope;
+  font-size: 20px;
+  color: #000;
+}
+.konsultasi-online {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-formselect {
+  font-family: Manrope;
+  font-size: 20px;
+  color: #000;
+}
+.directories,
+.frame-parent,
+.header-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.directories {
+  flex-direction: row;
+  gap: 23px;
+}
+.frame-parent,
+.header-inner {
+  max-width: 100%;
+}
+.frame-parent {
+  flex-direction: row;
+  gap: 25px;
+}
+.header-inner {
+  width: 613px;
+  flex-direction: column;
+  padding: 26px 0 0;
+  box-sizing: border-box;
+}
+.login-button-child {
+  height: 40px;
+  width: 90px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #6ec1e4;
+  display: none;
+}
+.masuk {
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  min-width: 66px;
+  z-index: 2;
+}
+.header,
+.login-button,
+.navigation-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-button {
+  cursor: pointer;
+  border: 0;
+  padding: 7px 12px 9px;
+  background-color: #6ec1e4;
+  border-radius: 10px;
+  flex-direction: row;
+  z-index: 1;
+}
+.login-button:hover {
+  background-color: #3b8fb0;
+}
+.header,
+.navigation-container {
+  flex-direction: column;
+  padding: 19px 0 0;
+}
+.header {
+  align-self: stretch;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7px 29px 6px 21px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Manrope;
+}
+@media screen and (max-width: 1050px) {
+  .frame-parent {
+    display: none;
+  }
+  .header-inner {
+    width: 87px;
+  }
+}
